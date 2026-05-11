@@ -20,7 +20,7 @@ export default function DemoSection() {
           muted 
           className="max-w-full max-h-[60vh] md:max-h-[70vh] rounded-xl border border-white/10 shadow-2xl bg-black/50"
         >
-          <source src="/correct_8s_video.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}correct_8s_video.mp4`} type="video/mp4" />
           <p className="text-white">Video not available.</p>
         </video>
       </div>
