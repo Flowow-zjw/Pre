@@ -33,7 +33,7 @@ export default function MotivationSection() {
           >
             <div className="bg-gray-100 p-2 rounded-2xl shadow-sm border border-gray-200 h-64 overflow-hidden flex items-center justify-center">
                <ExpandableImage 
-                 src="/Final Year Project Mid-term Summary Report_page2_image.png" 
+                 src={`${import.meta.env.BASE_URL}Final Year Project Mid-term Summary Report_page2_image.png`} 
                  alt="SDS Optimization Traps"
                  className="w-full h-full rounded-xl"
                />
@@ -56,7 +56,7 @@ export default function MotivationSection() {
           >
             <div className="bg-gray-100 p-2 rounded-2xl shadow-sm border border-gray-200 h-64 overflow-hidden flex items-center justify-center">
                <ExpandableImage 
-                 src="/0003.png" 
+                 src={`${import.meta.env.BASE_URL}0003.png`} 
                  alt="Feed-Forward Tearing"
                  className="w-full h-full rounded-xl"
                />

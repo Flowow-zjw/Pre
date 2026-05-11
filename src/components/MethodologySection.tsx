@@ -170,7 +170,7 @@ export default function MethodologySection() {
                     </div>
                   </div>
                   <div className="flex-[1] flex flex-col items-center justify-center h-full gap-4">
-                    <ExpandableImage src="/MVdiffusion.png" alt="MVdiffusion Phase" className="w-full max-h-48 rounded-xl border border-white/10 shadow-lg" />
+                    <ExpandableImage src={`${import.meta.env.BASE_URL}MVdiffusion.png`} alt="MVdiffusion Phase" className="w-full max-h-48 rounded-xl border border-white/10 shadow-lg" />
                     <div className="relative w-24 h-24 hidden md:block">
                        <div className="absolute inset-0 rounded-full border-2 border-dashed border-blue-500/50 animate-[spin_10s_linear_infinite]" />
                        <div className="absolute inset-0 rounded-full border border-blue-500/20 animate-[spin_15s_linear_reverse_infinite]" style={{ transform: 'rotateX(75deg)' }} />
@@ -203,7 +203,7 @@ export default function MethodologySection() {
                   <div className="flex-[1] bg-white/5 border border-white/10 p-5 rounded-2xl h-full flex flex-col justify-center shadow-inner relative overflow-hidden gap-4">
                     <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-transparent pointer-events-none"/>
                     
-                    <ExpandableImage src="/DUSt3R.png" alt="DUSt3R Phase" className="w-full max-h-36 rounded-xl border border-white/10 shadow-lg relative z-10" />
+                    <ExpandableImage src={`${import.meta.env.BASE_URL}DUSt3R.png`} alt="DUSt3R Phase" className="w-full max-h-36 rounded-xl border border-white/10 shadow-lg relative z-10" />
 
                     <h5 className="text-green-400 font-mono text-xs mb-1 relative z-10">{'// Minimum Spanning Tree (MST)'}</h5>
                     <div className="flex-1 relative flex items-center justify-center z-10 w-full">
@@ -265,7 +265,7 @@ export default function MethodologySection() {
                     </p>
                   </div>
                   <div className="flex-[1] flex items-center justify-center h-full w-full">
-                    <ExpandableImage src="/viewcrafter.png" alt="ViewCrafter Phase" className="w-full max-h-56 rounded-xl border border-white/10 shadow-lg" />
+                    <ExpandableImage src={`${import.meta.env.BASE_URL}viewcrafter.png`} alt="ViewCrafter Phase" className="w-full max-h-56 rounded-xl border border-white/10 shadow-lg" />
                   </div>
                 </div>
               )}
@@ -300,7 +300,7 @@ export default function MethodologySection() {
                     </div>
                   </div>
                   <div className="flex-[1] flex items-center justify-center h-full w-full">
-                    <ExpandableImage src="/rander from 3dgs.png" alt="3DGS Render Phase" className="w-full max-h-56 rounded-xl border border-white/10 shadow-lg" />
+                    <ExpandableImage src={`${import.meta.env.BASE_URL}rander from 3dgs.png`} alt="3DGS Render Phase" className="w-full max-h-56 rounded-xl border border-white/10 shadow-lg" />
                   </div>
                 </div>
               )}
